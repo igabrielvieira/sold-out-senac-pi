@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url('./imagens/stars.svg'), linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+#a-astro {
+    width: 12em;
+    height: 4em;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+header img {
+    width: 12em;
+}
+
+header {
+    display: flex;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+div.main-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+div.main-card h1 {
+    font-size: 45pt;
+}
+
+div.main-card .tips-card {
+    background-color: white;
+    width: 60em;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+}
+
+div.main-card .tips-card h3 {
+    color: black;
+}
+
+div.main-card .tips-card p {
+    color: black;
+    width: 30em;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+div.main-card .tips-card .img-spoiler {
+    position: absolute;
+    top: 4em;
+    right: 50px;
+    width: 22em;
+}
+
+div.main-card .tips-card .img-spoiler img {
+    width: 9em;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
